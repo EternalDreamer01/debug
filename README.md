@@ -2,7 +2,20 @@
 
 ## Overview
 
-API made to simplify debugging for C and C++.
+Simple logging API for C and C++.
+
+### Why this API and not another ?
+
+* Configure logging level for runtime
+* Disable logging at runtime for better performance
+* C (macro functions) and C++ (stream buffer)
+
+| | ***This Logging API*** | [GLib Message Logging](https://gnome.pages.gitlab.gnome.org/libsoup/glib/glib-Message-Logging.html) | [log.c](https://github.com/rxi/log.c) | [spdlog](https://github.com/gabime/spdlog) |
+|-|-|-|-|-|
+| Main target | C, C++ | C | C | C++ |
+| Configure logging level for runtime | ✓ | ✓ |
+| Disable logging at runtime for better performance | ✓ |
+
 
 ### Requirements
 
