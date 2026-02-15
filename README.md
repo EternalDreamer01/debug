@@ -13,8 +13,8 @@ Simple logging API for C and C++.
 | | ***This Logging API*** | [GLib Message Logging](https://gnome.pages.gitlab.gnome.org/libsoup/glib/glib-Message-Logging.html) | [log.c](https://github.com/rxi/log.c) | [spdlog](https://github.com/gabime/spdlog) |
 |-|-|-|-|-|
 | Main target | C, C++ | C | C | C++ |
-| Configure logging level for runtime | ✓ | ✓ |
-| Disable logging at runtime for better performance | ✓ |
+| Configure logging level for runtime (via env variable) | ✓ | ✓ |
+| Disable logging at compile time for better performance | ✓ |
 
 
 ### Requirements
